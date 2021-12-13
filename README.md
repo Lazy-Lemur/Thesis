@@ -1,5 +1,6 @@
 <<<<<<< HEAD
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
+# WEB-BASED GLOBAL INFORMATION SYSTEM 
+<p align="center"><img src="https://logos-download.com/wp-content/uploads/2016/09/Laravel_logo_wordmark_logotype.png" width="400"></p>
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
@@ -78,9 +79,10 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 =======
-# Thesis
-
-Web-based GIS System
-Pull 1.0.0
-Pull 1.1.0
 >>>>>>> 6ea40b4ac7bc3473bffa16780940fbd8b6505ae2
+
+-------
+Authors: 
+- [Jayson Jay Perater](https://github.com/orgs/Lazy-Lemur/people/imasadboi69696)
+- [Daj Brian Bongo](https://github.com/orgs/Lazy-Lemur/people/CantDajThis21)
+- [John Ryan Aparece](https://github.com/orgs/Lazy-Lemur/people/RyanAparece)
