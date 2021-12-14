@@ -1,3 +1,10 @@
+require('ol/ol.css');
+// require('ol/ol.js') still have to find where this is
+require('ol-layerswitcher/ol-layerswitcher.css');
+require('ol-layerswitcher/ol-layerswitcher.js');
+require('chart.js/dist/chart.min.js');
+require('jquery/dist/jquery.min.js');
+
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
