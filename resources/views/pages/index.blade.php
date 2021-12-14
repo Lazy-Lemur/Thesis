@@ -3,7 +3,7 @@
 @section('content')
     <div id="top">
         <h5>
-            <center>Butuan Employment and Population Rate GIS Dashboard</center>
+            <center>{{$title}}</center>
         </h5>
     </div>
     <div id="drop">

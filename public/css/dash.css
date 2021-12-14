@@ -1,0 +1,247 @@
+#map {
+    position: absolute;
+    top: 16%;
+    left: 0%;
+
+    height: 50%;
+    width: 100%;
+    border-style: solid;
+    border-color: #000000;
+    border-width: thin;
+}
+
+#top {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    height: 5%;
+    width: 100%;
+    background-color: #e0e0e0;
+    border-style: solid;
+    border-color: #000;
+    border-width: thin;
+    padding: 10px;
+}
+
+#top h5{
+    font-size: 18pt;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#drop {
+    position: absolute;
+    left: 0%;
+    top: 5%;
+    height: 5%;
+    width: 100%;
+    background-color: #e0e0e0;
+    border-style: solid;
+    border-color: #000;
+    border-width: thin;
+}
+
+#counter {
+    position: absolute;
+    left: 0%;
+    top: 10%;
+    height: 6%;
+    width: 100%;
+    background-color: #e0e0e0;
+    border-style: solid;
+    border-color: #000;
+    border-width: thin;
+}
+
+#start_date{
+    position: absolute;
+    top: 0%;
+    left: 35%;
+    width: 10%;
+}
+
+#end_date{
+    position: absolute;
+    top: 0%;
+    left: 45%;
+    width: 10%;
+}
+
+#parameter{
+    position: absolute;
+    top: 0%;
+    left: 55%;
+    width: 15%;
+}
+
+#graph1 {
+    position: absolute;
+    top: 66%;
+    left: 0%;
+    width: 50%;
+    height: 34%;
+    border-style: solid;
+    border-color: #000;
+    border-width: thin;
+}
+
+#graph2 {
+    position: absolute;
+    top: 66%;
+    left: 50%;
+    width: 50%;
+    height: 34%;
+    border-style: solid;
+    border-color: #000;
+    border-width: thin;
+}
+
+#legend{
+    position: absolute;
+    bottom: 2%;
+    left: 4%;
+    width: 12%;
+    height: 58%;
+    z-index: 34;
+    border-style: solid;
+    border-color: green;
+    border-width: thin;
+    background-color: #fff;
+}
+
+#legend_title{
+    position: absolute;
+    top: 1%;
+    left: 5%;
+}
+
+.symbol{
+    position: relative;
+    top: 6%;
+    padding: 5px;
+    left: 5%;
+    width: 90%;
+    height: 10%;
+    z-index: 34;
+    margin-top: 3%;
+}
+
+.legend_txt{
+    position: relative;
+    left: 20%;
+    width: 80%;
+    height: 100%;
+    z-index: 34;
+}
+
+#class6{
+    position: absolute;
+    left: 0%;
+    width: 17%;
+    height: 100%;
+    z-index: 34;
+
+    background-color: #800026;
+}
+
+
+#class5 {
+    position: absolute;
+    padding: 5px;
+    left: 0%;
+    width: 17%;
+    height: 100%;
+    z-index: 34;
+  
+    background-color: #bd0026;
+  }
+  #class4 {
+    position: absolute;
+    left: 0%;
+    width: 17%;
+    height: 100%;
+    z-index: 34;
+  
+    background-color: #e31a1c;
+  }
+  #class3 {
+    position: absolute;
+    left: 0%;
+    width: 17%;
+    height: 100%;
+    z-index: 34;
+  
+    background-color: #fc4e2a;
+  }
+  #class2 {
+    position: absolute;
+    left: 0%;
+    width: 17%;
+    height: 100%;
+    z-index: 34;
+  
+    background-color: #fd8d3c;
+  }
+  #class1 {
+    position: absolute;
+    left: 0%;
+    width: 17%;
+    height: 100%;
+    z-index: 34;
+  
+    background-color: #feb24c;
+  }
+  #class0 {
+    position: absolute;
+    left: 0%;
+    width: 17%;
+    height: 100%;
+    z-index: 34;
+  
+    background-color: #fed976;
+  }
+  
+  .ol-popup {
+    position: absolute;
+    background-color: white;
+    -webkit-filter: drop-shadow(0 1px 4px rgba(0, 0, 0, 0.2));
+    filter: drop-shadow(0 1px 4px rgba(0, 0, 0, 0.2));
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #cccccc;
+    bottom: 12px;
+    left: -50px;
+    min-width: 280px;
+  }
+  .ol-popup:after,
+  .ol-popup:before {
+    top: 100%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+  }
+  .ol-popup:after {
+    border-top-color: white;
+    border-width: 10px;
+    left: 48px;
+    margin-left: -10px;
+  }
+  .ol-popup:before {
+    border-top-color: #cccccc;
+    border-width: 11px;
+    left: 48px;
+    margin-left: -11px;
+  }
+  .ol-popup-closer {
+    text-decoration: none;
+    position: absolute;
+    top: 2px;
+    right: 8px;
+  }
+  .ol-popup-closer:after {
+    content: "X";
+  }
+  
