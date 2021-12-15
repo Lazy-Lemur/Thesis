@@ -1,7 +1,12 @@
 import {Overlay, View, Map} from 'ol';
+// import Overlay from 'ol/Overlay';
+// import View from 'ol/View';
+// import Map from 'ol/Map';
 import {LayerSwitcher, MousePosition, Image, ZoomToExtent, OverviewMap, FullScreen, Zoom, ZoomSlider} from 'ol/control';
 import {Group, Tile} from 'ol/layer';
 import {OSM, XYZ, ImageWMS} from 'ol/source';
+
+
 
 var geojson, geojson_point, map, lineGraph, barGraph, overlay, value_param, feature;
 var featureOverlay;
@@ -18,6 +23,10 @@ overlay = new Overlay({
     autoPanAnimation: {
         duration: 250
     }
+});
+
+$(function() {
+    alert('Hey!');
 });
 
 /**

@@ -9,7 +9,20 @@
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
 
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.7.0/css/ol.css"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.7.0/build/ol.js"></script>
+    <script src="https://unpkg.com/ol-layerswitcher@3.8.3"></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/ol-layerswitcher@3.8.3/dist/ol-layerswitcher.css"
+    />
+    <script type="module" src="{{ asset('js/app.js') }}" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 
     <!-- Styles -->
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
@@ -19,7 +32,7 @@
 <body>
     @yield('content')
     <script src="load_layer.js"></script>
-    <script src="map.js"></script>
+    <script src="{{ asset('js/mapp.js') }}"></script>
     <script src="click_info.js"></script>
     <script src="click_graph.js"></script>
 </body>
