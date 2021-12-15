@@ -11,4 +11,4 @@
 |
 */
 
-Route::get('/', 'MapController');
+Route::get('/', 'MapController@index');
