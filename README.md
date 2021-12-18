@@ -88,5 +88,5 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 Authors:
 
 -   [Jayson Jay Perater](https://github.com/orgs/Lazy-Lemur/people/imasadboi69696)
--   [Daj Brian Bongo](https://github.com/orgs/Lazy-Lemur/people/CantDajThis21) - Today was my first commit btw!! Well.. kinda hehe
+-   [Daj Brian Bongo](https://github.com/orgs/Lazy-Lemur/people/CantDajThis21) - I've created a feature branch.
 -   [John Ryan Aparece](https://github.com/orgs/Lazy-Lemur/people/RyanAparece)
