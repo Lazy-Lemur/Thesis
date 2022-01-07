@@ -39,3 +39,8 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 //     cluster: process.env.MIX_PUSHER_APP_CLUSTER,
 //     encrypted: true
 // });
+
+import map_view from './map.js';
+// import show_map from '../../public/js/mapp';
+window.map_view = map_view;
+// window.show_map = show_map;

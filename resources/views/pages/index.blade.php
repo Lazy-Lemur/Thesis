@@ -32,18 +32,26 @@
           class="form-select form-select-sm"
           aria-label=".form-select-sm example"
         >
-          <option selected value="population">Population</option>
+          {{-- <option selected value="population">Population</option>
           <option value="employed">Employed</option>
           <option value="unemployed">Unemployed</option>
-          <option value="underemployed">Underemployed</option>
+          <option value="underemployed">Underemployed</option> --}}
+          <option selected value="cases">Confirmed Cases</option>
+          <option value="deaths">Deaths</option>
+          <option value="tests">Tests</option>
+          <option value="vaccinations">Vaccinations</option>
         </select>
       </div>
       <div id="counter">
         <center>
-          <button class="btn btn-light" type="button" id="population"></button>
+          {{-- <button class="btn btn-light" type="button" id="population"></button>
           <button class="btn btn-danger" type="button" id="employed"></button>
           <button class="btn btn-warning" type="button" id="unemployed"></button>
-          <button class="btn btn-info" type="button" id="underemployed"></button>
+          <button class="btn btn-info" type="button" id="underemployed"></button> --}}
+          <button class="btn btn-light" type="button" id="cases"></button>
+          <button class="btn btn-danger" type="button" id="deaths"></button>
+          <button class="btn btn-warning" type="button" id="tests"></button>
+          <button class="btn btn-info" type="button" id="vaccinations"></button>
         </center>
       </div>
   
@@ -90,4 +98,14 @@
       </div>
   
       <div id="info">&nbsp;</div>
+@endsection
+
+@section('scripts')
+    <script type="text/javascript">
+      window.map_view.display();
+    </script>
+    {{-- <script src="{{ asset('js/mapp.js') }}"></script> --}}
+    {{-- <script src="{{ asset('js/covid_load_layer.js') }}"></script> --}}
+    {{-- <script src="{{ asset('js/covid_click_info.js') }}"></script> --}}
+    {{-- <script src="{{ asset('js/covid_click_graph.js') }}"></script> --}}
 @endsection
